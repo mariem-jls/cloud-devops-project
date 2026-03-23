@@ -1,0 +1,13 @@
+# CI/CD pipeline — coming in week 5
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Coming soon
+        run: echo "CI/CD pipeline will be configured in week 5"
